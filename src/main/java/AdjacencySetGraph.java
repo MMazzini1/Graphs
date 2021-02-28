@@ -75,4 +75,23 @@ public class AdjacencySetGraph implements Graph {
             return sortedList;
         }
     }
+
+	@Override
+	public int getIndegree(int v){
+		if (v < 0 ||  v >= numVertices) {
+			throw new  IllegalArgumentException("Vertex number is not valid");
+		}
+		int indegree = 0;
+		for (int i = 0; i < numVertices; i++) {
+			if (getAdjacentVertices(i).contains(v)) {
+				indegree++;
+			}
+		}
+		return indegree;
+	}
+
+	@Override
+	public int getNumVertices() {
+		return numVertices;
+	}
 }

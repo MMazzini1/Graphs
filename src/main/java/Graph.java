@@ -2,7 +2,9 @@ import java.util.List;
 
 public interface Graph {
 
+	int getIndegree(int v);
 
+	int getNumVertices();
 
 	/**
 	 * Tipo de grafo. Dirigido o no dirigido.

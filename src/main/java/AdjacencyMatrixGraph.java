@@ -92,4 +92,23 @@ public class AdjacencyMatrixGraph implements Graph {
 		}
 		return s.toString();
 	}
+
+	@Override
+	public int getIndegree(int v){
+		if (v < 0 ||  v >= numVertices) {
+			throw new  IllegalArgumentException("Vertex number is not valid");
+		}
+		int indegree = 0;
+		for (int i = 0; i < getNumVertices(); i++) {
+			if (adjacencyMatrix[i][v] != 0) {
+				indegree++;
+			}
+		}
+		return indegree;
+	}
+
+	@Override
+	public int getNumVertices() {
+		return numVertices;
+	}
 }
