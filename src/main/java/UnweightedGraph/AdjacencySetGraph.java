@@ -1,3 +1,4 @@
+package UnweightedGraph;
 
 import java.util.*;
 
@@ -5,6 +6,14 @@ import java.util.*;
  * Implementación de un grafo utilizando una Set de adyacencia.
  * Cada vértice tiene almacenado en un set los nodos vecinos
  *
+ *
+ * Pros:
+ * - Eficiente para grafos dispersos
+ * - Iterar todos los edges es eficiente
+ *
+ * Contra:
+ *  - Menor eficiencia espacial para grafos densos
+ *  -
  *
  E = numero de Edges
  * V = numero de Vertices

@@ -1,7 +1,15 @@
+package Algorithms;
+
+import UnweightedGraph.*;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * Complejidad O(V+E)
+ * Muy útil para encontrar el shortest path en unweighted grpahs.
+ */
 public class GraphBreadthFirstTraversal {
 
 	private static int N = 8;

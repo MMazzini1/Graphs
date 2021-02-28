@@ -1,3 +1,4 @@
+package UnweightedGraph;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,6 +11,15 @@ import java.util.List;
  * una conexión presente entre los nodos i y j, mientras que un 0 representa ausencia de conexión.
  * <p>
  * <p>
+ * Pros:
+ * -space efficient para grafos densos
+ * -edge lookup O(1)
+ *
+ * Contra:
+ * -V2 space
+ * -Iterar por todos los edges requiere V2
+ *
+ *
  * E = numero de Edges
  * V = numero de Vertices
  * Entonces...

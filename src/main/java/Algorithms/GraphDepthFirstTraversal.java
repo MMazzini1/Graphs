@@ -1,5 +1,14 @@
+package Algorithms;
+
+import UnweightedGraph.*;
 import java.util.List;
 
+/**
+ *
+ * O(V+E)
+ *
+ * Util para contar connected components, encontrar bridges o articulation points.
+ */
 public class GraphDepthFirstTraversal {
 
 	private static int N = 8;

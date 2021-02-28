@@ -1,3 +1,6 @@
+package Algorithms;
+
+import UnweightedGraph.*;
 
 import java.util.*;
 
@@ -14,7 +17,7 @@ public class TopologicalSort {
 		//Mapa nodo -> indegree
 		Map<Integer, Integer> indegreeMap = new HashMap<>();
 
-		//Inicializo el mapa con el indegre de todos los nodos
+		//Inicializo el mapa con el indegree de todos los nodos
 		for (int vertex = 0; vertex < graph.getNumVertices(); vertex++) {
 			int indegree = graph.getIndegree(vertex);
 			indegreeMap.put(vertex, indegree);
