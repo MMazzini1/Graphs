@@ -3,7 +3,16 @@ import java.util.*;
 
 /**
  * Implementación de un grafo utilizando una Set de adyacencia.
- */
+ * Cada vértice tiene almacenado en un set los nodos vecinos
+ *
+ *
+ E = numero de Edges
+ * V = numero de Vertices
+ * Entonces...
+ * Space: E + V
+ * IS EDGE PRESENT: log 1
+ * ITERATE OVER EDGES ON A VERTEX: DEGREE OF V   (DEGREE = vértices conectados con el vértice que itero)
+ * */
 public class AdjacencySetGraph implements Graph {
 
     private List<Vertex> vertexList = new ArrayList<>();
