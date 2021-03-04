@@ -8,9 +8,19 @@ import java.util.*;
  * El topologicalSort aplica a DAGs( Grafos dirigidos acíclicos)
  * Consiste en encontrar un orden en el DAG dado,
  * tal que cada nodo aparezca antes que todos los nodos con los que tiene un edge saliente.
+ * Importante: un topological sort no es UNICO, hay varios posibles.
+ *
+ * Grafos con ciclos no pueden ordenarse con topsort (deberias chequear ausencia de ciclos primero, ej Tarjans Strongly Connected Component)
+ *
  */
-public class TopologicalSort {
+public class TopologicalSort1 {
 
+	/**
+	 * La idea de esta implementacion es utilizar el indegree de los nodos (numeros de edges entrantes)
+	 * para ir ordenando los mismos. Comenzas con el nodo con indegree 0, y en cada iteracion
+	 * disminuis en 1 el indegree de los nodos vecinos. Solo podes agregar a la queue cuando un nodo
+	 * queda con inegree 0 (lo cual significa que los nodos que apuntan a el ya fueron procesados)
+	 */
 	public static List<Integer> sort(Graph graph){
 		LinkedList<Integer> queue = new LinkedList<>();
 

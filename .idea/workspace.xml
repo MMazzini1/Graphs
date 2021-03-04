@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a37d18-660a-4590-b4a4-a23490ce7fc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdjacencyMatrixGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnweightedGraph/AdjacencyMatrixGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdjacencySetGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnweightedGraph/AdjacencySetGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UnweightedGraph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphBreadthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/GraphBreadthFirstTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDepthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/GraphDepthFirstTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms/GraphBreadthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/GraphBreadthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithms/TopologicalSort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videoMaker/videoMaker" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,7 +48,7 @@
       <recent name="C:\Users\Admin\Desktop\Grafos\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestPathUnweightedGraphBFS">
+  <component name="RunManager" selected="Application.TopologicalSort2">
     <configuration name="GraphBreadthFirstTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.GraphBreadthFirstTraversal" />
       <module name="Graphs" />
@@ -73,8 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopologicalSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.TopologicalSort2" />
+      <module name="Graphs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologicalSort2" />
         <item itemvalue="Application.ShortestPathUnweightedGraphBFS" />
         <item itemvalue="Application.GraphBreadthFirstTraversal" />
         <item itemvalue="Application.GraphDepthFirstTraversal" />
@@ -90,7 +101,10 @@
       <updated>1614462756559</updated>
       <workItem from="1614462760355" duration="4986000" />
       <workItem from="1614468454184" duration="4266000" />
-      <workItem from="1614520984836" duration="2722000" />
+      <workItem from="1614520984836" duration="6010000" />
+      <workItem from="1614598548664" duration="597000" />
+      <workItem from="1614646592011" duration="32000" />
+      <workItem from="1614888859369" duration="1350000" />
     </task>
     <servers />
   </component>
@@ -110,54 +124,121 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614466985085" />
-    <state width="707" height="438" key="DebuggerActiveHint" timestamp="1614523874270">
+    <state x="779" y="67" key="#xdebugger.evaluate" timestamp="1614889732423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="707" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1614523874270" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1614523868101">
+    <state x="779" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1614889732423" />
+    <state width="706" height="439" key="DebuggerActiveHint" timestamp="1614890027586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614523868101" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1614523868101">
+    <state width="706" height="439" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1614890027586" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614646621707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614523868101" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1614523868100">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614646621707" />
+    <state width="639" height="214" key="GridCell.Tab.0.bottom" timestamp="1614890087161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614523868100" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1614523868101">
+    <state width="639" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614890087161" />
+    <state width="639" height="214" key="GridCell.Tab.0.center" timestamp="1614890087161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614523868101" />
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom" timestamp="1614523862123">
+    <state width="639" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614890087161" />
+    <state width="639" height="214" key="GridCell.Tab.0.left" timestamp="1614890087161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614523862123" />
-    <state width="1323" height="192" key="GridCell.Tab.1.center" timestamp="1614523862123">
+    <state width="639" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614890087161" />
+    <state width="639" height="214" key="GridCell.Tab.0.right" timestamp="1614890087161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614523862123" />
-    <state width="1323" height="192" key="GridCell.Tab.1.left" timestamp="1614523862123">
+    <state width="639" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614890087161" />
+    <state width="639" height="214" key="GridCell.Tab.1.bottom" timestamp="1614890083287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614523862123" />
-    <state width="1323" height="192" key="GridCell.Tab.1.right" timestamp="1614523862123">
+    <state width="639" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614890083287" />
+    <state width="639" height="214" key="GridCell.Tab.1.center" timestamp="1614890083286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614523862123" />
+    <state width="639" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614890083286" />
+    <state width="639" height="214" key="GridCell.Tab.1.left" timestamp="1614890083286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614890083286" />
+    <state width="639" height="214" key="GridCell.Tab.1.right" timestamp="1614890083286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614890083286" />
+    <state width="639" height="214" key="GridCell.Tab.2.bottom" timestamp="1614890082892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614890082892" />
+    <state width="639" height="214" key="GridCell.Tab.2.center" timestamp="1614890082892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614890082892" />
+    <state width="639" height="214" key="GridCell.Tab.2.left" timestamp="1614890082892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614890082892" />
+    <state width="639" height="214" key="GridCell.Tab.2.right" timestamp="1614890082892">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614890082892" />
+    <state width="639" height="214" key="GridCell.Tab.90.bottom" timestamp="1614890077889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.90.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614890077889" />
+    <state width="639" height="214" key="GridCell.Tab.90.center" timestamp="1614890077888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.90.center/0.0.1366.728@0.0.1366.728" timestamp="1614890077888" />
+    <state width="639" height="214" key="GridCell.Tab.90.left" timestamp="1614890077888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.90.left/0.0.1366.728@0.0.1366.728" timestamp="1614890077888" />
+    <state width="639" height="214" key="GridCell.Tab.90.right" timestamp="1614890077888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="214" key="GridCell.Tab.90.right/0.0.1366.728@0.0.1366.728" timestamp="1614890077888" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1614462911645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614462911645" />
+    <state x="208" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614527727096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="208" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1614527727096" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1614889387107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614889387107" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1614528199338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1614528199338" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ShortestPathUnweightedGraphBFS.java</url>
-          <line>115</line>
-          <option name="timeStamp" value="1" />
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ShortestPathUnweightedGraphBFS.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort2.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Algorithms/TopologicalSort2.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -16,6 +16,7 @@ public class GraphBreadthFirstTraversal {
 
 	public static void main(String[] args) {
 
+		//Grafo 1 .png
 		Graph graph = new AdjacencyMatrixGraph(N, Graph.GraphType.DIRECTED);
 		graph.addEdge(1, 0);
 		graph.addEdge(1, 2);
